@@ -1,0 +1,18 @@
+app:
+  host: localhost
+  port: 8081
+  debug: True
+data:
+  aspects:
+    - FOOD#QUALITY
+    - SERVICE#GENERAL
+    - RESTAURANT#PRICES
+    - AMBIENCE#GENERAL
+    - RESTAURANT#GENERAL
+    - FOOD#STYLE_OPTIONS
+  sentiments:
+    - neutral
+    - negative
+    - positive
+  tune-file: tune.json
+
